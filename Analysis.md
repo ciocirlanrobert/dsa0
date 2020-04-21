@@ -19,7 +19,7 @@ The overall complexity: **O(1 + 2*N + 2*M + 1 + 1)** which would be **O(n)** whe
 
 ### Task 2:
 Let **N = number of rows in calls file**
-Let **M = number of unique telephone numbers
+Let **M = number of unique telephone numbers**
 
 
 The function `get_duration_for_numbers()` executes 2 lines for every row in calls files, which means **O(2*N) => O(N)**
@@ -53,7 +53,8 @@ Overall: **O(N)**
 
 
 ### Task 4:
-Let **N = number of rows in calls file** 
+Let **N = number of rows in calls file**
+
 Let **M = number of rows in texts file** 
 Let **P = number of possible telemarketers** 
 Let **Q = number of unique telephone numbers** 
